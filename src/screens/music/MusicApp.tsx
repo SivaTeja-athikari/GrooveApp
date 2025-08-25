@@ -128,7 +128,7 @@ const MusicCarousel = () => {
     const [currentSound, setCurrentSound] = useState<Sound | null>(null);
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
-    const [isReady, setIsReady] = useState(false); // ✅ NEW
+    const [isReady, setIsReady] = useState(false);
 
     useEffect(() => {
         flatListRef.current?.scrollToIndex({ index: 1, animated: false });
