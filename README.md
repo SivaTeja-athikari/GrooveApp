@@ -1,4 +1,3 @@
-# GrooveApp
 # React Native Music & Todo Apps
 
 This repository contains two React Native components/apps:
